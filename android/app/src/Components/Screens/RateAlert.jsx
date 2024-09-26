@@ -86,7 +86,7 @@ const RateAlert = () => {
       });
     };
 
-    const alarmCheckInterval = setInterval(checkAlarms, 60000);
+    const alarmCheckInterval = setInterval(checkAlarms, 6000);
     return () => clearInterval(alarmCheckInterval);
   }, [alarms]);
 

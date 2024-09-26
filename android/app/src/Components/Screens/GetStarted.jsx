@@ -8,7 +8,7 @@ const GetStarted = () => {
   const navigation = useNavigation();
 
   const handleGetStarted = () => {
-    navigation.navigate('Register');
+    navigation.navigate('Tabs');
   };
 
   return (
